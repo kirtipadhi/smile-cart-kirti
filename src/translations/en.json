@@ -1,5 +1,6 @@
 {
   "buyNow": "Buy now",
+  "confirmOrder": "Confirm Order",
   "itemCount_one": "({{count}} item)",
   "itemCount_other": "({{count}} items)",
   "totalMrp": "Total MRP: <typography>${{mrp}}</typography>",
@@ -14,6 +15,13 @@
     "error": {
       "removedFromCart": "{{name}} is no longer available and has been removed from cart"
     }
+  },
+  "error": {
+    "noInternetConnection": "No Internet Connection",
+    "networkError": "Network Error"
+  },
+  "order": {
+    "successfullyPlaced": "Order has been successfully placed"
   },
   "checkout": "Checkout",
   "contact": "Contact",

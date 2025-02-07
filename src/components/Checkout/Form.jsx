@@ -1,10 +1,12 @@
+import React from "react";
+
 import { useFormikContext } from "formik";
 import {
   useFetchCountries,
   useFetchStates,
 } from "hooks/reactQuery/useCheckoutApi";
-import { Select, Typography } from "neetoui";
-import { Input } from "neetoui/formik";
+import { Typography } from "neetoui";
+import { Input, Select } from "neetoui/formik";
 import { useTranslation } from "react-i18next";
 
 const Form = () => {

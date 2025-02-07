@@ -1,4 +1,4 @@
-import React from "react";
+import { React, memo } from "react";
 
 import { useFormikContext } from "formik";
 import {
@@ -113,4 +113,4 @@ const Form = () => {
   );
 };
 
-export default Form;
+export default memo(Form);

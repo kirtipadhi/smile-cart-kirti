@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 import { OFFER_PRICE } from "components/constants";
 import { cartTotalOf } from "components/utils";
 import { useFetchCartProducts } from "hooks/reactQuery/useProductsApi";
@@ -45,4 +47,4 @@ const Items = ({ isSubmitDisabled }) => {
   );
 };
 
-export default Items;
+export default memo(Items);

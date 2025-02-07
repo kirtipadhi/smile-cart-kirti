@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 import { Typography, Tag } from "neetoui";
 import useCartItemsStore from "stores/useCartItemsStore";
 
@@ -28,4 +30,4 @@ const Product = ({ name, imageUrl, offerPrice, slug }) => {
   );
 };
 
-export default Product;
+export default memo(Product);

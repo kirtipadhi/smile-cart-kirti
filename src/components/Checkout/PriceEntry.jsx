@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 import { Typography } from "neetoui";
 import { Trans } from "react-i18next";
 
@@ -11,4 +13,4 @@ const PriceEntry = ({ totalPrice, i18nKey, className = "" }) => (
   </Typography>
 );
 
-export default PriceEntry;
+export default memo(PriceEntry);

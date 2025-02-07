@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 import useSelectedQuantity from "hooks/useSelectedQuantity";
 import { Button } from "neetoui";
 import { isNil } from "ramda";
@@ -20,4 +22,4 @@ const AddToCart = ({ slug }) => {
   return <ProductQuantity {...{ slug }} />;
 };
 
-export default AddToCart;
+export default memo(AddToCart);
